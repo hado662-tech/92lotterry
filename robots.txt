@@ -1,4 +1,4 @@
-# robots.txt for 92lottery.com
+# robots.txt for 92lottery.uk.com
 # https://www.robotstxt.org/
 
 # Allow all crawlers
@@ -6,7 +6,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://92lottery.com/sitemap.xml
+Sitemap: https://92lottery.uk.com/sitemap.xml
 
 # Crawl delay (optional - be nice to servers)
 Crawl-delay: 1
