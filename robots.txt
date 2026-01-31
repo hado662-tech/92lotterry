@@ -1,40 +1,4 @@
-# robots.txt for 92lottery.uk.com
-# https://www.robotstxt.org/
-
-# Allow all crawlers
 User-agent: *
 Allow: /
 
-# Sitemap location
 Sitemap: https://92lottery.uk.com/sitemap.xml
-
-# Crawl delay (optional - be nice to servers)
-Crawl-delay: 1
-
-# Google specific
-User-agent: Googlebot
-Allow: /
-Disallow: /assets/images/private/
-
-# Bing specific  
-User-agent: Bingbot
-Allow: /
-
-# Baidu (if targeting China/Asia)
-User-agent: Baiduspider
-Allow: /
-
-# Block bad bots
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
-# Block access to sensitive files
-Disallow: /*.json$
-Disallow: /manifest.json
-Allow: /sitemap.xml
